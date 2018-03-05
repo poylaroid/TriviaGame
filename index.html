@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NBA Trivia Game</title>
+</head>
+<!--Link to css files -->
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<body>
+    <!-- Game start -->
+    <div id=start_container>
+        <!-- Static Logo -->
+        <h1 class="logo">NBA Trivia</h1>
+
+        <button id=start_button>Start</button>
+    </div>
+
+    <!-- Start 0f Game Container -->
+    <div id=mid_game_container>
+
+        <!-- Static Logo -->
+        <h1 class="logo">NBA Trivia</h1>
+
+        <!-- Game Timer -->
+        <h1 id="timer_line">Time Remaining:
+            <span id="timer_number">60 Seconds</span>
+        </h1>
+
+        <!-- Questions -->
+
+        <h1>1. What player scored the most points in one game??</h1>
+        <!--Answer -  Wilt Chamberlain -->
+        <input type="radio" name="q1" value="Michael Jordan">Michael Jordan
+        <input type="radio" name="q1" value="Wilt Chamberlain">Wilt Chamberlain
+        <input type="radio" name="q1" value="Lebron James">Lebron James
+        <input type="radio" name="q1" value="Kobe Bryant">Kobe Bryant
+
+        <h1>2. Everyone knows about Dr. J, but do you know his real name??</h1>
+        <!--Answer -  Julius Erving -->
+        <input type="radio" name="q1" value="Jordan Erving">Jordan Erving
+        <input type="radio" name="q1" value="John Erving">John Erving
+        <input type="radio" name="q1" value="James Erving">James Erving
+        <input type="radio" name="q1" value="Jude Erving">Jude Erving
+
+        <h1>3. What was the original name of the NBA??</h1>
+        <!--Answer -  BAA Basketball Association of America -->
+        <input type="radio" name="q1" value="New Basketball Association">New Basketball Association
+        <input type="radio" name="q1" value="Ninth Basketball Association">Ninth Basketball Association
+        <input type="radio" name="q1" value="NewYork Basketball Association">New York Basketball Association
+        <input type="radio" name="q1" value="Basketball Association of America">Basketball Association of America
+
+        <h1>4. What NBA team is named after a car part??</h1>
+        <!--Answer -  Detroit Pistons -->
+        <input type="radio" name="q1" value="Hornets">Charlotte Hornets
+        <input type="radio" name="q1" value="Lakers">LA Lakers
+        <input type="radio" name="q1" value="NY Knicks">NY Knicks
+        <input type="radio" name="q1" value="Detroit Pistons">Detroit Pistons
+
+        <br>
+
+        <button id = done_button>Done!</button>
+
+		</div>
+
+<!-- End of the game -->
+<div id = end_container>
+        <!-- Static Game Logo -->
+        <h1 class = "logo">NBA Trivia</h1>
+
+        <h1 id = "done">All Done!</h1>
+        <br>
+
+        <h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+        <h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+        <h1>Unanswered: <span id = "unanswered">0</span></h1>
+    </div>
+        
+
+
+
+    <!-- Link in jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!-- Link in JavaScript -->
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
