@@ -19,8 +19,8 @@ body {
 	margin-bottom: 3%;
 }
 
-#start_container {
-
+/* #start_container { */
+/* couldn't get this to work
 	height: auto;
 	padding-bottom: 50px;
 
@@ -35,13 +35,11 @@ body {
 
 	border-radius: 15px;
 
-
-	/* to show background behind the page */
 	margin-top: 50%;
 	margin-bottom: 50%;
 
 
-}
+} */
 
 #start_button{
 
@@ -135,9 +133,8 @@ h1{
 
 	border-radius: 15px;
 
-	color: white;
-
-
+    color: white;
+    
 	margin-top: 50%;
 	margin-bottom: 50%;
 
